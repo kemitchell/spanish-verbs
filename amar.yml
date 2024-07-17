@@ -40,13 +40,13 @@ indicativo:
     tú: amaste
     vos: amastes
     él: amó
-    nosotros: amamos
-    vosotros: amasteis
-    ellos: amaron
     ella: amó
     usted: amó
+    nosotros: amamos
     nosotras: amamos
+    vosotros: amasteis
     vosotras: amasteis
+    ellos: amaron
     ellas: amaron
     ustedes: amaron
   futuro simple:
@@ -54,26 +54,26 @@ indicativo:
     tú: amarás
     vos: amarás
     él: amará
-    nosotros: amaremos
-    vosotros: amaréis
-    ellos: amarán
     ella: amará
     usted: amará
+    nosotros: amaremos
     nosotras: amaremos
+    vosotros: amaréis
     vosotras: amaréis
+    ellos: amarán
     ellas: amarán
     ustedes: amarán
   condicional simple:
     yo: amaría
     tú: amarías
     él: amaría
-    nosotros: amaríamos
-    vosotros: amaríais
-    ellos: amarían
     ella: amaría
     usted: amaría
+    nosotros: amaríamos
     nosotras: amaríamos
+    vosotros: amaríais
     vosotras: amaríais
+    ellos: amarían
     ellas: amarían
     ustedes: amarían
 subjunctivo:
@@ -84,13 +84,13 @@ subjunctivo:
     - amés
     - ames
     él: ame
-    nosotros: amemos
-    vosotros: améis
-    ellos: amen
     ella: ame
     usted: ame
+    nosotros: amemos
     nosotras: amemos
     vosotras: améis
+    vosotros: améis
+    ellos: amen
     ellas: amen
     ustedes: amen
   pretérito imperfecto:
@@ -98,13 +98,13 @@ subjunctivo:
     tú: amaras
     vos: amaras
     él: amara
-    nosotros: amáramos
-    vosotros: amarais
-    ellos: amaran
     ella: amara
     usted: amara
+    nosotros: amáramos
     nosotras: amáramos
+    vosotros: amarais
     vosotras: amarais
+    ellos: amaran
     ellas: amaran
     ustedes: amaran
   imperfect2:
@@ -112,13 +112,13 @@ subjunctivo:
     tú: amases
     vos: amases
     él: amase
-    nosotros: amásemos
-    vosotros: amaseis
-    ellos: amasen
     ella: amase
     usted: amase
+    nosotros: amásemos
     nosotras: amásemos
+    vosotros: amaseis
     vosotras: amaseis
+    ellos: amasen
     ellas: amasen
     ustedes: amasen
   futuro simple:
@@ -126,41 +126,41 @@ subjunctivo:
     tú: amares
     vos: amares
     él: amare
-    nosotros: amáremos
-    vosotros: amareis
-    ellos: amaren
     ella: amare
     usted: amare
+    nosotros: amáremos
     nosotras: amáremos
+    vosotros: amareis
     vosotras: amareis
+    ellos: amaren
     ellas: amaren
     ustedes: amaren
 imperativo:
   affirmativo:
     tú: ama
     vos: amá
-    usted: ame
-    nosotros: amemos
-    vosotros: amad
-    ustedes: amen
     él: ame
     ella: ame
+    usted: ame
+    nosotros: amemos
     nosotras: amemos
+    vosotros: amad
     vosotras: amad
     ellos: amen
     ellas: amen
+    ustedes: amen
   negativo:
     tú: no ames
     vos:
     - no amés
     - no ames
-    usted: no ame
-    nosotros: no amemos
-    vosotros: no améis
-    ustedes: no amen
     él: no ame
     ella: no ame
+    usted: no ame
+    nosotros: no amemos
     nosotras: no amemos
+    vosotros: no améis
     vosotras: no améis
     ellos: no amen
     ellas: no amen
+    ustedes: no amen
