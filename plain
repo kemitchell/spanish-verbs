@@ -1,5 +1,6 @@
 #!/usr/bin/env ruby
 # frozen_string_literal: true
+# rubocop:disable Style/GlobalVars
 
 require 'yaml'
 
@@ -11,6 +12,24 @@ puts format('Gerundio: %s', $data['infinitivo'])
 puts format('Participios: %s', $data['participio'].values.join(', '))
 
 $pronouns = %w[yo tú vos él ella usted nosotros nosotras vosotros vosotras ellos ellas ustedes]
+
+def print_tense(mood, tense)
+  forms = $data[mood][tense]
+  print '| '
+  print tense.split.map(&:capitalize).join(' ')
+  print ' |'
+  $pronouns.each do |p|
+    print ' '
+    form = forms[p]
+    if form.is_a?(Array)
+      print form.join(', ')
+    else
+      print form
+    end
+    print ' |'
+  end
+  puts
+end
 
 def print_mood(mood)
   puts
@@ -26,21 +45,8 @@ def print_mood(mood)
   print '|-' * ($pronouns.size + 1)
   puts '|'
 
-  $data[mood].each do |tense, forms|
-    print '| '
-    print tense.split.map {|w| w.capitalize}.join(' ')
-    print ' |'
-    $pronouns.each do |p|
-      print ' '
-      form = forms[p]
-      if form.is_a?(Array)
-        print form.join(', ')
-      else
-        print form
-      end
-      print ' |'
-    end
-    puts
+  $data[mood].each_key do |tense|
+    print_tense(mood, tense)
   end
 end
 
