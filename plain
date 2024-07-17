@@ -4,15 +4,17 @@
 require 'yaml'
 
 file = ARGV[0]
-data = YAML.load_file(file)
+$data = YAML.load_file(file)
 
-puts format('Infinitivo: %s', data['infinitivo'])
-puts format('Gerundio: %s', data['infinitivo'])
-puts format('Participios: %s', data['participio'].values.join(', '))
+puts format('Infinitivo: %s', $data['infinitivo'])
+puts format('Gerundio: %s', $data['infinitivo'])
+puts format('Participios: %s', $data['participio'].values.join(', '))
 
 $pronouns = %w[yo tú vos él ella usted nosotros nosotras vosotros vosotras ellos ellas ustedes]
 
-def print_tenses(mood)
+def print_mood(mood)
+  puts
+  puts mood.capitalize
   print '| Tense |'
   $pronouns.each do |p|
     print ' '
@@ -24,7 +26,7 @@ def print_tenses(mood)
   print '|-' * ($pronouns.size + 1)
   puts '|'
 
-  mood.each do |tense, forms|
+  $data[mood].each do |tense, forms|
     print '| '
     print tense.split.map {|w| w.capitalize}.join(' ')
     print ' |'
@@ -42,17 +44,4 @@ def print_tenses(mood)
   end
 end
 
-puts
-indicativo = data['indicativo']
-puts 'Indicativo'
-print_tenses(indicativo)
-
-puts
-subjuntivo = data['subjuntivo']
-puts 'Subjuntivo'
-print_tenses(subjuntivo)
-
-puts
-imperativo = data['imperativo']
-puts 'Imperativo'
-print_tenses(imperativo)
+%w[indicativo subjuntivo imperativo].each { |t| print_mood(t) }
