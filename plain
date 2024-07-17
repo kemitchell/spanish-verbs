@@ -9,7 +9,12 @@ $data = YAML.load_file(file)
 
 puts format('Infinitivo: %s', $data['infinitivo'])
 puts format('Gerundio: %s', $data['infinitivo'])
-puts format('Participios: %s', $data['participio'].values.join(', '))
+participio = $data['participio']
+if participio.is_a? String
+  puts format('Participio: %s', participio)
+else
+  puts format('Participios: %s', participio.values.join(', '))
+end
 
 $pronouns = %w[yo tú vos él ella usted nosotros nosotras vosotros vosotras ellos ellas ustedes]
 

@@ -1,6 +1,6 @@
 #!/bin/sh
 set -e
 
-find . -iname "*.yml" | while read -r file; do
+find verbs -iname "*.yml" | while read -r file; do
   ./complete "$file"
 done
