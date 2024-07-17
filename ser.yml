@@ -1,0 +1,96 @@
+---
+infinitivo: ser
+gerundio: siendo
+participio: sido
+indicativo:
+  presente:
+    yo: soy
+    tú: eres
+    vos: sos
+    ella: es
+    nosotros: somos
+    vosotros: sois
+    ellos: son
+  pretérito imperfecto:
+    yo: era
+    tú: eras
+    él: era
+    nosotros: éramos
+    vosotros: erais
+    ellos: eran
+  pretérito perfecto simple:
+    yo: fui
+    tú: fuiste
+    vos:
+      - fuistes
+      - fuiste
+    él: fue
+    nosotros: fuimos
+    vosotros: fuisteis
+    ellos: fueron
+  futuro simple:
+    yo: seré
+    tú: serás
+    vos: será
+    nosotros: seremos
+    vosotros: seréis
+    ellos: serán
+  condicional:
+    yo: sería
+    tú: serías
+    vos: sería
+    nosotros: seríamos
+    vosotros: serkíais
+    ellos: serían
+subjuntivo:
+  presente:
+    yo: sea
+    tú: seas
+    vos:
+      - seás
+      - seas
+    él: sea
+    nosotros: seamons
+    vosotros: seáis
+    ellos: sean
+  pretérito imperfecto 1:
+    yo: fuera
+    tú: fueras
+    vos: fueras
+    él: fuera
+    nosotros: fuéramos
+    vosotros: fuerais
+    ellos: fueran
+  pretérito imperfecto 2:
+    yo: fuese
+    tú: fueses
+    vos: fueses
+    él: fuese
+    nosotros: fuésemos
+    vosotros: fueseis
+    ellos: fuesen
+  futuro:
+    yo: fuere
+    tú: fueres
+    vos: fueres
+    él: fuere
+    nosotros: fuéremos
+    vosotros: fuereis
+    ellos: fueren
+imperativo:
+  afirmativo:
+    tú: sé
+    vos: sé
+    él: sea
+    nosotros: seamos
+    vosotros: sed
+    ellos: sean
+  negativo:
+    tú: no seas
+    vos:
+      - no seás
+      - no seas
+    él: no sea
+    nosotros: no seamos
+    vosotros: no seáis
+    ellos: no sean
