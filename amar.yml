@@ -26,13 +26,13 @@ indicativo:
     tú: amabas
     vos: amabas
     él: amaba
-    nosotros: amábamos
-    vosotros: amabais
-    ellos: amaban
     ella: amaba
     usted: amaba
+    nosotros: amábamos
     nosotras: amábamos
+    vosotros: amabais
     vosotras: amabais
+    ellos: amaban
     ellas: amaban
     ustedes: amaban
   pretérito perfecto simple:
@@ -88,8 +88,8 @@ subjunctivo:
     usted: ame
     nosotros: amemos
     nosotras: amemos
-    vosotras: améis
     vosotros: améis
+    vosotras: améis
     ellos: amen
     ellas: amen
     ustedes: amen

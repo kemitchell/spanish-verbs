@@ -13,8 +13,10 @@ pronoun_groups = [
   %w[ellos ellas ustedes]
 ]
 
+pronoun_order = %w[yo tú vos él ella usted nosotros nosotras vosotros vosotras ellos ellas ustedes]
+
 %w[indicativo subjunctivo imperativo].each do |mood|
-  data[mood].each_value do |value|
+  data[mood].each do |key, value|
     pronoun_groups.each do |group|
       present = []
       missing = []
@@ -31,6 +33,11 @@ pronoun_groups = [
         value[fill] = value[present[0]]
       end
     end
+    old_object = data[mood][key]
+    new_object = {}
+    keys = old_object.keys.sort_by { |p| pronoun_order.find_index(p) }
+    keys.each { |k| new_object[k] = old_object[k] }
+    data[mood][key] = new_object
   end
 end
 
