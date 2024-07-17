@@ -76,7 +76,7 @@ indicativo:
     ellos: amarían
     ellas: amarían
     ustedes: amarían
-subjunctivo:
+subjuntivo:
   presente:
     yo: ame
     tú: ames
@@ -107,7 +107,7 @@ subjunctivo:
     ellos: amaran
     ellas: amaran
     ustedes: amaran
-  imperfect2:
+  pretérito imperfecto 2:
     yo: amase
     tú: amases
     vos: amases
@@ -136,7 +136,7 @@ subjunctivo:
     ellas: amaren
     ustedes: amaren
 imperativo:
-  affirmativo:
+  afirmativo:
     tú: ama
     vos: amá
     él: ame

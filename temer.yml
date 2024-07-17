@@ -1,0 +1,161 @@
+---
+infinitivo: temer
+gerundo: temiendo
+participio:
+  masculino singular: temido
+  feminino singular: temida
+  masculino plural: temidos
+  feminino plural: temidas
+indicativo:
+  presente:
+    yo: temo
+    tú: temes
+    vos: temés
+    él: teme
+    ella: teme
+    usted: teme
+    nosotros: tememos
+    nosotras: tememos
+    vosotros: teméis
+    vosotras: teméis
+    ellos: temen
+    ellas: temen
+    ustedes: temen
+  pretérito imperfecto:
+    yo: temía
+    vos: temías
+    él: temía
+    ella: temía
+    usted: temía
+    nosotros: temíamos
+    nosotras: temíamos
+    vosotros: temíais
+    vosotras: temíais
+    ellos: temían
+    ellas: temían
+    ustedes: temían
+  pretérito perfecto simple:
+    yo: temí
+    tú: temiste
+    vos:
+    - temistes
+    - temiste
+    él: temió
+    ella: temió
+    usted: temió
+    nosotros: temíamos
+    nosotras: temíamos
+    vosotros: temíais
+    vosotras: temíais
+    ellos: temían
+    ellas: temían
+    ustedes: temían
+  futuro simple:
+    yo: temeré
+    tú: temerás
+    vos: temerás
+    él: temerá
+    ella: temerá
+    usted: temerá
+    nosotros: temeremos
+    nosotras: temeremos
+    vosotros: temeréis
+    vosotras: temeréis
+    ellos: temerán
+    ellas: temerán
+    ustedes: temerán
+  condicional:
+    yo: temería
+    tú: temerías
+    él: temería
+    ella: temería
+    usted: temería
+    nosotros: temeríamos
+    nosotras: temeríamos
+    vosotros: temeríais
+    vosotras: temeríais
+    ellos: temerían
+    ellas: temerían
+    ustedes: temerían
+subjuntivo:
+  presente:
+    yo: tema
+    tú: temas
+    vos:
+    - temás
+    - temas
+    él: tema
+    ella: tema
+    usted: tema
+    nosotros: temamos
+    nosotras: temamos
+    vosotros: temáis
+    vosotras: temáis
+    ellos: teman
+    ellas: teman
+    ustedes: teman
+  pretérito imperfecto 1:
+    yo: temiera
+    tú: temieras
+    vos: temieras
+    él: temiera
+    ella: temiera
+    usted: temiera
+    nosotros: temiéramos
+    nosotras: temiéramos
+    vosotros: temirais
+    vosotras: temirais
+    ellos: temieran
+    ellas: temieran
+    ustedes: temieran
+  pretérito imperfecto 2:
+    yo: temiese
+    tú: temieres
+    vos: temieres
+    él: temiese
+    ella: temiese
+    usted: temiese
+    nosotros: temiésamos
+    nosotras: temiésamos
+    vosotros: temieseis
+    vosotras: temieseis
+    ellos: temiesen
+    ellas: temiesen
+    ustedes: temiesen
+  futuro:
+    yo: temiere
+    tú: temieres
+    vos: temieres
+    él: temiere
+    ella: temiere
+    usted: temiere
+    nosotros: temiéramos
+    nosotras: temiéramos
+    vosotros: termiereis
+    vosotras: termiereis
+    ellos: temieren
+    ellas: temieren
+    ustedes: temieren
+imperativo:
+  afirmativo:
+    tú: teme
+    vos: temé
+    él: teman
+    ella: teman
+    usted: teman
+    nosotros: temamos
+    nosotras: temamos
+    vosotros: temed
+    vosotras: temed
+  negativo:
+    tú: no temas
+    vos:
+    - no temás
+    - no temas
+    él: no teman
+    ella: no teman
+    usted: no teman
+    nosotros: no temamos
+    nosotras: no temamos
+    vosotros: no temáis
+    vosotras: no temáis

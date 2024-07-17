@@ -18,7 +18,7 @@ pronoun_groups = [
 # objects and inser the value in the order we want the keys to appear.
 pronoun_order = %w[yo tú vos él ella usted nosotros nosotras vosotros vosotras ellos ellas ustedes]
 
-%w[indicativo subjunctivo imperativo].each do |mood|
+%w[indicativo subjuntivo imperativo].each do |mood|
   data[mood].each do |key, value|
     # Copy conjunctions for any missing pronouns.
     pronoun_groups.each do |group|
