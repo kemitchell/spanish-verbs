@@ -30,7 +30,12 @@ def print_tenses(mood)
     print ' |'
     $pronouns.each do |p|
       print ' '
-      print forms[p]
+      form = forms[p]
+      if form.is_a?(Array)
+        print form.join(', ')
+      else
+        print form
+      end
       print ' |'
     end
     puts
