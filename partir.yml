@@ -1,0 +1,168 @@
+---
+infinitivo: partir
+gerundio: partiendo
+participio:
+  masculino singular: partido
+  femenino singular: partida
+  masculino plural: partidos
+  femenino plural: partidas
+indicativo:
+  presente:
+    yo: parto
+    tú: partes
+    vos: partís
+    él: parte
+    ella: parte
+    usted: parte
+    nosotros: partimos
+    nosotras: partimos
+    vosotros: partís
+    vosotras: partís
+    ellos: parten
+    ellas: parten
+    ustedes: parten
+  pretérito imperfecto:
+    yo: partía
+    tú: partías
+    vos: partías
+    él: partía
+    ella: partía
+    usted: partía
+    nosotros: partíamos
+    nosotras: partíamos
+    vosotros: partíais
+    vosotras: partíais
+    ellos: partían
+    ellas: partían
+    ustedes: partían
+  pretérito perfecto simple:
+    yo: partí
+    tú: partiste
+    vos:
+    - partistes
+    - partiste
+    él: partió
+    ella: partió
+    usted: partió
+    nosotros: partimos
+    nosotras: partimos
+    vosotros: partisteis
+    vosotras: partisteis
+    ellos: partieron
+    ellas: partieron
+    ustedes: partieron
+  futuro simple:
+    yo: partiré
+    tú: partirás
+    vos: partirás
+    él: partirá
+    ella: partirá
+    usted: partirá
+    nosotros: partiremos
+    nosotras: partiremos
+    vosotros: partiréis
+    vosotras: partiréis
+    ellos: partirán
+    ellas: partirán
+    ustedes: partirán
+  condicional:
+    yo: partiría
+    tú: partirías
+    él: partiría
+    ella: partiría
+    usted: partiría
+    nosotros: partiríamos
+    nosotras: partiríamos
+    vosotros: partiríais
+    vosotras: partiríais
+    ellos: partirían
+    ellas: partirían
+    ustedes: partirían
+subjuntivo:
+  presente:
+    yo: parta
+    tú: partas
+    vos:
+    - partás
+    - partas
+    él: parta
+    ella: parta
+    usted: parta
+    nosotros: partamos
+    nosotras: partamos
+    vosotros: partáis
+    vosotras: partáis
+    ellos: partan
+    ellas: partan
+    ustedes: partan
+  pretérito imperfecto 1:
+    yo: partiera
+    tú: partieras
+    vos: partieras
+    él: partiera
+    ella: partiera
+    usted: partiera
+    nosotros: partieréamos
+    nosotras: partieréamos
+    vosotros: partierais
+    vosotras: partierais
+    ellos: partieran
+    ellas: partieran
+    ustedes: partieran
+  pretérito imperfecto 2:
+    yo: pariese
+    tú: partieses
+    vos: partieses
+    él: partiese
+    ella: partiese
+    usted: partiese
+    nosotros: partiésamos
+    nosotras: partiésamos
+    vosotros: partieseis
+    vosotras: partieseis
+    ellos: partiesen
+    ellas: partiesen
+    ustedes: partiesen
+  futuro:
+    yo: partiere
+    tú: partieres
+    vos: partiere
+    él: partiere
+    ella: partiere
+    usted: partiere
+    nosotros: partiéremos
+    nosotras: partiéremos
+    vosotros: partiereis
+    vosotras: partiereis
+    ellos: partieren
+    ellas: partieren
+    ustedes: partieren
+imperativo:
+  afirmativo:
+    tú: parte
+    vos: partí
+    él: parta
+    ella: parta
+    usted: parta
+    nosotros: partamos
+    nosotras: partamos
+    vosotros: partid
+    vosotras: partid
+    ellos: partan
+    ellas: partan
+    ustedes: partan
+  negativo:
+    tú: no partas
+    vos:
+    - no partás
+    - no partas
+    él: no parta
+    ella: no parta
+    usted: no parta
+    nosotros: no partamos
+    nosotras: no partamos
+    vosotros: no partáis
+    vosotras: no partáis
+    ellos: no partan
+    ellas: no partan
+    ustedes: no partan
