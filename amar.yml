@@ -1,3 +1,4 @@
+---
 infinitivo: amar
 gerundo: amando
 participio:
@@ -20,48 +21,78 @@ indicativo:
     ellos: aman
     ellas: aman
     ustedes: aman
-pretérito imperfecto:
-  yo: amaba
-  tú: amabas
-  vos: amabas
-  él: amaba
-  nosotros: amábamos
-  vosotros: amabais
-  ellos: amaban
-pretérito perfecto simple:
-  yo: amé
-  tú: amaste
-  vos: amastes
-  él: amó
-  nosotros: amamos
-  vosotros: amasteis
-  ellos: amaron
-futuro simple:
-  yo: amaré
-  tú: amarás
-  vos: amarás
-  él: amará
-  nosotros: amaremos
-  vosotros: amaréis
-  ellos: amarán
-condicional simple:
-  yo: amaría
-  tú: amarías
-  él: amaría
-  nosotros: amaríamos
-  vosotros: amaríais
-  ellos: amarían
+  pretérito imperfecto:
+    yo: amaba
+    tú: amabas
+    vos: amabas
+    él: amaba
+    nosotros: amábamos
+    vosotros: amabais
+    ellos: amaban
+    ella: amaba
+    usted: amaba
+    nosotras: amábamos
+    vosotras: amabais
+    ellas: amaban
+    ustedes: amaban
+  pretérito perfecto simple:
+    yo: amé
+    tú: amaste
+    vos: amastes
+    él: amó
+    nosotros: amamos
+    vosotros: amasteis
+    ellos: amaron
+    ella: amó
+    usted: amó
+    nosotras: amamos
+    vosotras: amasteis
+    ellas: amaron
+    ustedes: amaron
+  futuro simple:
+    yo: amaré
+    tú: amarás
+    vos: amarás
+    él: amará
+    nosotros: amaremos
+    vosotros: amaréis
+    ellos: amarán
+    ella: amará
+    usted: amará
+    nosotras: amaremos
+    vosotras: amaréis
+    ellas: amarán
+    ustedes: amarán
+  condicional simple:
+    yo: amaría
+    tú: amarías
+    él: amaría
+    nosotros: amaríamos
+    vosotros: amaríais
+    ellos: amarían
+    ella: amaría
+    usted: amaría
+    nosotras: amaríamos
+    vosotras: amaríais
+    ellas: amarían
+    ustedes: amarían
 subjunctivo:
   presente:
     yo: ame
     tú: ames
     vos:
-      - amés
-      - ames
+    - amés
+    - ames
     él: ame
     nosotros: amemos
     vosotros: améis
     ellos: amen
+    ella: ame
+    usted: ame
+    nosotras: amemos
+    vosotras: améis
+    ellas: amen
+    ustedes: amen
   pretérito imperfecto:
     yo: amara
     tú: amaras
@@ -70,6 +101,12 @@ subjunctivo:
     nosotros: amáramos
     vosotros: amarais
     ellos: amaran
+    ella: amara
+    usted: amara
+    nosotras: amáramos
+    vosotras: amarais
+    ellas: amaran
+    ustedes: amaran
   imperfect2:
     yo: amase
     tú: amases
@@ -78,6 +115,12 @@ subjunctivo:
     nosotros: amásemos
     vosotros: amaseis
     ellos: amasen
+    ella: amase
+    usted: amase
+    nosotras: amásemos
+    vosotras: amaseis
+    ellas: amasen
+    ustedes: amasen
   futuro simple:
     yo: amare
     tú: amares
@@ -86,6 +129,12 @@ subjunctivo:
     nosotros: amáremos
     vosotros: amareis
     ellos: amaren
+    ella: amare
+    usted: amare
+    nosotras: amáremos
+    vosotras: amareis
+    ellas: amaren
+    ustedes: amaren
 imperativo:
   affirmativo:
     tú: ama
@@ -94,12 +143,24 @@ imperativo:
     nosotros: amemos
     vosotros: amad
     ustedes: amen
+    él: ame
+    ella: ame
+    nosotras: amemos
+    vosotras: amad
+    ellos: amen
+    ellas: amen
   negativo:
     tú: no ames
     vos:
-      - no amés
-      - no ames
+    - no amés
+    - no ames
     usted: no ame
     nosotros: no amemos
     vosotros: no améis
     ustedes: no amen
+    él: no ame
+    ella: no ame
+    nosotras: no amemos
+    vosotras: no améis
+    ellos: no amen
+    ellas: no amen
