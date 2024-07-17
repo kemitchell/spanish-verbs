@@ -1,0 +1,53 @@
+#!/usr/bin/env ruby
+# frozen_string_literal: true
+
+require 'yaml'
+
+file = ARGV[0]
+data = YAML.load_file(file)
+
+puts format('Infinitivo: %s', data['infinitivo'])
+puts format('Gerundio: %s', data['infinitivo'])
+puts format('Participios: %s', data['participio'].values.join(', '))
+
+$pronouns = %w[yo tú vos él ella usted nosotros nosotras vosotros vosotras ellos ellas ustedes]
+
+def print_tenses(mood)
+  print '| Tense |'
+  $pronouns.each do |p|
+    print ' '
+    print p.capitalize
+    print ' |'
+  end
+  puts
+
+  print '|-' * ($pronouns.size + 1)
+  puts '|'
+
+  mood.each do |tense, forms|
+    print '| '
+    print tense.split.map {|w| w.capitalize}.join(' ')
+    print ' |'
+    $pronouns.each do |p|
+      print ' '
+      print forms[p]
+      print ' |'
+    end
+    puts
+  end
+end
+
+puts
+indicativo = data['indicativo']
+puts 'Indicativo'
+print_tenses(indicativo)
+
+puts
+subjuntivo = data['subjuntivo']
+puts 'Subjuntivo'
+print_tenses(subjuntivo)
+
+puts
+imperativo = data['imperativo']
+puts 'Imperativo'
+print_tenses(imperativo)
