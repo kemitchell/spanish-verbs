@@ -1,0 +1,105 @@
+infinitivo: amar
+gerundo: amando
+participio:
+  masculino singular: amado
+  feminino singular: amada
+  masculino plural: amados
+  feminino plural: amadas
+indicativo:
+  presente:
+    yo: amo
+    tú: amas
+    vos: amás
+    él: ama
+    ella: ama
+    usted: ama
+    nosotros: amamos
+    nosotras: amamos
+    vosotros: amáis
+    vosotras: amáis
+    ellos: aman
+    ellas: aman
+    ustedes: aman
+pretérito imperfecto:
+  yo: amaba
+  tú: amabas
+  vos: amabas
+  él: amaba
+  nosotros: amábamos
+  vosotros: amabais
+  ellos: amaban
+pretérito perfecto simple:
+  yo: amé
+  tú: amaste
+  vos: amastes
+  él: amó
+  nosotros: amamos
+  vosotros: amasteis
+  ellos: amaron
+futuro simple:
+  yo: amaré
+  tú: amarás
+  vos: amarás
+  él: amará
+  nosotros: amaremos
+  vosotros: amaréis
+  ellos: amarán
+condicional simple:
+  yo: amaría
+  tú: amarías
+  él: amaría
+  nosotros: amaríamos
+  vosotros: amaríais
+  ellos: amarían
+subjunctivo:
+  presente:
+    yo: ame
+    tú: ames
+    vos:
+      - amés
+      - ames
+    él: ame
+    nosotros: amemos
+    vosotros: améis
+    ellos: amen
+  pretérito imperfecto:
+    yo: amara
+    tú: amaras
+    vos: amaras
+    él: amara
+    nosotros: amáramos
+    vosotros: amarais
+    ellos: amaran
+  imperfect2:
+    yo: amase
+    tú: amases
+    vos: amases
+    él: amase
+    nosotros: amásemos
+    vosotros: amaseis
+    ellos: amasen
+  futuro simple:
+    yo: amare
+    tú: amares
+    vos: amares
+    él: amare
+    nosotros: amáremos
+    vosotros: amareis
+    ellos: amaren
+imperativo:
+  affirmativo:
+    tú: ama
+    vos: amá
+    usted: ame
+    nosotros: amemos
+    vosotros: amad
+    ustedes: amen
+  negativo:
+    tú: no ames
+    vos:
+      - no amés
+      - no ames
+    usted: no ame
+    nosotros: no amemos
+    vosotros: no améis
+    ustedes: no amen
