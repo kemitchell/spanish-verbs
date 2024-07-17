@@ -1,5 +1,8 @@
 #!/usr/bin/env ruby
+# frozen_string_literal: true
+
 require 'yaml'
+
 file = ARGV[0]
 data = YAML.load_file(file)
 
@@ -9,8 +12,9 @@ pronoun_groups = [
   %w[vosotros vosotras],
   %w[ellos ellas ustedes]
 ]
+
 %w[indicativo subjunctivo imperativo].each do |mood|
-  data[mood].each do |key, value|
+  data[mood].each_value do |value|
     pronoun_groups.each do |group|
       present = []
       missing = []
@@ -21,13 +25,13 @@ pronoun_groups = [
           missing << pronoun
         end
       end
-      if !present.empty? && !missing.empty?
-        missing.each do |fill|
-          value[fill] = value[present[0]]
-        end
+      next if present.empty? || missing.empty?
+
+      missing.each do |fill|
+        value[fill] = value[present[0]]
       end
     end
   end
 end
 
-puts YAML.dump(data)
+File.write(file, YAML.dump(data))
