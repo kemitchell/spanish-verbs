@@ -9,9 +9,8 @@ class MyTest < Test::Unit::TestCase
   def test_conform_to_schema
     schema = YAML.load_file('schema.yml')
     Dir.glob('verbs/*.yml').each do |file|
-      data = YAML.load_file(file)
       begin
-        JSON::Validator.validate!(schema, data)
+        JSON::Validator.validate!(schema, YAML.load_file(file))
       rescue JSON::Schema::ValidationError => e
         assert(false, "#{file}: #{e.message}")
       else
