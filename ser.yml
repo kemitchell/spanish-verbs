@@ -7,90 +7,152 @@ indicativo:
     yo: soy
     tú: eres
     vos: sos
+    él: es
     ella: es
+    usted: es
     nosotros: somos
+    nosotras: somos
     vosotros: sois
+    vosotras: sois
     ellos: son
+    ellas: son
+    ustedes: son
   pretérito imperfecto:
     yo: era
     tú: eras
     él: era
+    ella: era
+    usted: era
     nosotros: éramos
+    nosotras: éramos
     vosotros: erais
+    vosotras: erais
     ellos: eran
+    ellas: eran
+    ustedes: eran
   pretérito perfecto simple:
     yo: fui
     tú: fuiste
     vos:
-      - fuistes
-      - fuiste
+    - fuistes
+    - fuiste
     él: fue
+    ella: fue
+    usted: fue
     nosotros: fuimos
+    nosotras: fuimos
     vosotros: fuisteis
+    vosotras: fuisteis
     ellos: fueron
+    ellas: fueron
+    ustedes: fueron
   futuro simple:
     yo: seré
     tú: serás
     vos: será
     nosotros: seremos
+    nosotras: seremos
     vosotros: seréis
+    vosotras: seréis
     ellos: serán
+    ellas: serán
+    ustedes: serán
   condicional:
     yo: sería
     tú: serías
     vos: sería
     nosotros: seríamos
+    nosotras: seríamos
     vosotros: serkíais
+    vosotras: serkíais
     ellos: serían
+    ellas: serían
+    ustedes: serían
 subjuntivo:
   presente:
     yo: sea
     tú: seas
     vos:
-      - seás
-      - seas
+    - seás
+    - seas
     él: sea
+    ella: sea
+    usted: sea
     nosotros: seamons
+    nosotras: seamons
     vosotros: seáis
+    vosotras: seáis
     ellos: sean
+    ellas: sean
+    ustedes: sean
   pretérito imperfecto 1:
     yo: fuera
     tú: fueras
     vos: fueras
     él: fuera
+    ella: fuera
+    usted: fuera
     nosotros: fuéramos
+    nosotras: fuéramos
     vosotros: fuerais
+    vosotras: fuerais
     ellos: fueran
+    ellas: fueran
+    ustedes: fueran
   pretérito imperfecto 2:
     yo: fuese
     tú: fueses
     vos: fueses
     él: fuese
+    ella: fuese
+    usted: fuese
     nosotros: fuésemos
+    nosotras: fuésemos
     vosotros: fueseis
+    vosotras: fueseis
     ellos: fuesen
+    ellas: fuesen
+    ustedes: fuesen
   futuro:
     yo: fuere
     tú: fueres
     vos: fueres
     él: fuere
+    ella: fuere
+    usted: fuere
     nosotros: fuéremos
+    nosotras: fuéremos
     vosotros: fuereis
+    vosotras: fuereis
     ellos: fueren
+    ellas: fueren
+    ustedes: fueren
 imperativo:
   afirmativo:
     tú: sé
     vos: sé
     él: sea
+    ella: sea
+    usted: sea
     nosotros: seamos
+    nosotras: seamos
     vosotros: sed
+    vosotras: sed
     ellos: sean
+    ellas: sean
+    ustedes: sean
   negativo:
     tú: no seas
     vos:
-      - no seás
-      - no seas
+    - no seás
+    - no seas
     él: no sea
+    ella: no sea
+    usted: no sea
     nosotros: no seamos
+    nosotras: no seamos
     vosotros: no seáis
+    vosotras: no seáis
     ellos: no sean
+    ellas: no sean
+    ustedes: no sean
