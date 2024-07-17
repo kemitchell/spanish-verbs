@@ -3,6 +3,7 @@
 # rubocop:disable Style/GlobalVars
 
 require 'yaml'
+require 'tabulo'
 
 file = ARGV[0]
 $data = YAML.load_file(file)
@@ -18,40 +19,57 @@ end
 
 $pronouns = %w[yo tú vos él ella usted nosotros nosotras vosotros vosotras ellos ellas ustedes]
 
-def print_tense(mood, tense)
-  forms = $data[mood][tense]
-  print '| '
-  print tense.split.map(&:capitalize).join(' ')
-  print ' |'
-  $pronouns.each do |p|
-    print ' '
-    form = forms[p]
-    if form.is_a?(Array)
-      print form.join(', ')
-    else
-      print form
-    end
-    print ' |'
-  end
-  puts
+def capitalize(string)
+  string.split.map(&:capitalize).join(' ')
 end
 
 def print_mood(mood)
   puts
   puts mood.capitalize
-  print '| Tense |'
-  $pronouns.each do |p|
-    print ' '
-    print p.capitalize
-    print ' |'
+
+  header = ['Tense'] + $pronouns.map { |p| capitalize(p) }
+  table = []
+  $data[mood].each do |tense, forms|
+    table << [capitalize(tense)] + $pronouns.map { |p| forms[p] }
   end
-  puts
 
-  print '|-' * ($pronouns.size + 1)
-  puts '|'
+  widths = []
+  combined = [header] + table
+  (0..header.length - 1).each do |i|
+    widest = 0
+    combined.each do |row|
+      cell = row[i]
+      cell = cell.join(', ') if cell.is_a? Array
+      cell = '' if cell.nil?
+      widest = cell.length if cell.length > widest
+    end
+    widths[i] = widest
+  end
 
-  $data[mood].each_key do |tense|
-    print_tense(mood, tense)
+  header.each_with_index do |cell, index|
+    print '| '
+    print capitalize(cell).ljust(widths[index])
+    print ' '
+  end
+  puts ' |'
+
+  header.each_with_index do |cell, index|
+    print '|-'
+    print '-' * widths[index]
+    print '-'
+  end
+  puts '-|'
+
+  table.each do |row|
+    row.each_with_index do |cell, index|
+      width = widths[index]
+      value = cell.is_a?(Array) ? cell.join(', ') : cell
+      value = '' if value.nil?
+      print '| '
+      print value.ljust(width)
+      print ' '
+    end
+    puts ' |'
   end
 end
 
