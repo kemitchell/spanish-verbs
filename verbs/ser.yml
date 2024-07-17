@@ -20,6 +20,7 @@ indicativo:
   pretérito imperfecto:
     yo: era
     tú: eras
+    vos: eras
     él: era
     ella: era
     usted: era
@@ -50,6 +51,9 @@ indicativo:
     yo: seré
     tú: serás
     vos: será
+    él: será
+    ella: será
+    usted: será
     nosotros: seremos
     nosotras: seremos
     vosotros: seréis
@@ -61,6 +65,9 @@ indicativo:
     yo: sería
     tú: serías
     vos: sería
+    él: sería
+    ella: sería
+    usted: sería
     nosotros: seríamos
     nosotras: seríamos
     vosotros: serkíais

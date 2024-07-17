@@ -1,0 +1,114 @@
+type: object
+properties:
+  infinitivo:
+    type: string
+  gerundio:
+    type: string
+  participio:
+    oneOf:
+    - type: string
+    - type: object
+      additionalProperties: false
+      properties:
+        masculino singular: { type: string }
+        femenino singular: { type: string }
+        masculino plural: { type: string }
+        femenino plural: { type: string }
+  indicativo:
+    type: object
+    properties:
+      presente:
+        $ref: '#/$defs/forms'
+      pretérito imperfecto:
+        $ref: '#/$defs/forms'
+      pretérito perfecto simple:
+        $ref: '#/$defs/forms'
+      futuro simple:
+        $ref: '#/$defs/forms'
+      condicional:
+        $ref: '#/$defs/forms'
+  subjuntivo:
+    type: object
+    properties:
+      presente:
+        $ref: '#/$defs/forms'
+      pretérito imperfecto 1:
+        $ref: '#/$defs/forms'
+      pretérito imperfecto 2:
+        $ref: '#/$defs/forms'
+      futuro:
+        $ref: '#/$defs/forms'
+  imperativo:
+    type: object
+    properties:
+      afirmativo:
+        $ref: '#/$defs/forms-no-yo'
+      negativo:
+        $ref: '#/$defs/forms-no-yo'
+$defs:
+  forms:
+    type: object
+    additionalProperties: false
+    required:
+      - yo
+      - tú
+      - vos
+      - él
+      - ella
+      - usted
+      - nosotros
+      - nosotras
+      - vosotros
+      - vosotras
+      - ellos
+      - ellas
+      - ustedes
+    properties:
+      yo: { $ref: '#/$defs/string-or-strings' }
+      tú: { $ref: '#/$defs/string-or-strings' }
+      vos: { $ref: '#/$defs/string-or-strings' }
+      él: { $ref: '#/$defs/string-or-strings' }
+      ella: { $ref: '#/$defs/string-or-strings' }
+      usted: { $ref: '#/$defs/string-or-strings' }
+      nosotros: { $ref: '#/$defs/string-or-strings' }
+      nosotras: { $ref: '#/$defs/string-or-strings' }
+      vosotros: { $ref: '#/$defs/string-or-strings' }
+      vosotras: { $ref: '#/$defs/string-or-strings' }
+      ellos: { $ref: '#/$defs/string-or-strings' }
+      ellas: { $ref: '#/$defs/string-or-strings' }
+      ustedes: { $ref: '#/$defs/string-or-strings' }
+  forms-no-yo:
+    type: object
+    additionalProperties: false
+    required:
+      - tú
+      - vos
+      - él
+      - ella
+      - usted
+      - nosotros
+      - nosotras
+      - vosotros
+      - vosotras
+      - ellos
+      - ellas
+      - ustedes
+    properties:
+      tú: { $ref: '#/$defs/string-or-strings' }
+      vos: { $ref: '#/$defs/string-or-strings' }
+      él: { $ref: '#/$defs/string-or-strings' }
+      ella: { $ref: '#/$defs/string-or-strings' }
+      usted: { $ref: '#/$defs/string-or-strings' }
+      nosotros: { $ref: '#/$defs/string-or-strings' }
+      nosotras: { $ref: '#/$defs/string-or-strings' }
+      vosotros: { $ref: '#/$defs/string-or-strings' }
+      vosotras: { $ref: '#/$defs/string-or-strings' }
+      ellos: { $ref: '#/$defs/string-or-strings' }
+      ellas: { $ref: '#/$defs/string-or-strings' }
+      ustedes: { $ref: '#/$defs/string-or-strings' }
+  string-or-strings:
+    oneOf:
+    - type: string
+    - type: array
+      items:
+        type: string

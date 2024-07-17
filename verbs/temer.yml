@@ -68,6 +68,7 @@ indicativo:
   condicional:
     yo: temería
     tú: temerías
+    vos: temería
     él: temería
     ella: temería
     usted: temería
@@ -148,6 +149,9 @@ imperativo:
     nosotras: temamos
     vosotros: temed
     vosotras: temed
+    ellos: teman
+    ellas: teman
+    ustedes: teman
   negativo:
     tú: no temas
     vos:
@@ -160,3 +164,6 @@ imperativo:
     nosotras: no temamos
     vosotros: no temáis
     vosotras: no temáis
+    ellos: no teman
+    ellas: no teman
+    ustedes: no teman

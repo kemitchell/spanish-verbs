@@ -1,0 +1,22 @@
+#!/usr/bin/env ruby
+# frozen_string_literal: true
+
+require 'test/unit'
+require 'json-schema'
+require 'yaml'
+
+class MyTest < Test::Unit::TestCase
+  def test_conform_to_schema
+    schema = YAML.load_file('schema.yml')
+    Dir.glob('verbs/*.yml').each do |file|
+      data = YAML.load_file(file)
+      begin
+        JSON::Validator.validate!(schema, data)
+      rescue JSON::Schema::ValidationError => e
+        assert(false, "#{file}: #{e.message}")
+      else
+        assert(true)
+      end
+    end
+  end
+end
