@@ -25,7 +25,7 @@ end
 
 def print_mood(mood)
   puts
-  puts mood.capitalize
+  puts "#{mood.capitalize}:"
   puts
 
   header = ['Tense'] + $pronouns.map { |p| capitalize(p) }
@@ -53,19 +53,21 @@ def print_mood(mood)
   end
   puts
 
-  header.each_with_index do |cell, index|
+  last = header.count - 1
+  header.each_with_index do |_cell, index|
     print '-' * widths[index]
-    print '--'
+    print '--' unless index == last
   end
-  puts '-'
+  puts
 
   table.each do |row|
+    last = row.count - 1
     row.each_with_index do |cell, index|
       width = widths[index]
       value = cell.is_a?(Array) ? cell.join(', ') : cell
       value = '' if value.nil?
       print value.ljust(width)
-      print '  '
+      print '  ' unless index == last
     end
     puts
   end
