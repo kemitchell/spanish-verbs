@@ -34,7 +34,7 @@ pronoun_order = %w[yo tú vos él ella usted nosotros nosotras vosotros vosotras
       next if present.empty? || missing.empty?
 
       missing.each do |fill|
-        value[fill] = value[present[0]]
+        value[fill] = value[present[0]].clone
       end
     end
 

@@ -9,15 +9,21 @@ indicativo:
     vos:
     - ha
     - hay
-    él: &1
+    él:
     - ha
     - hay
-    ella: *1
-    usted: *1
-    nosotros: &2
+    ella:
+    - ha
+    - hay
+    usted:
+    - ha
+    - hay
+    nosotros:
     - hemos
     - habemos
-    nosotras: *2
+    nosotras:
+    - hemos
+    - habemos
     vosotros: habéis
     vosotras: habéis
     ellos: han
