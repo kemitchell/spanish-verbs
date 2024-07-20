@@ -1,0 +1,163 @@
+---
+infinitivo: estar
+gerundio: estando
+participio: estado
+indicativo:
+  presente:
+    yo: estoy
+    tú: estás
+    vos: estás
+    él: está
+    ella: está
+    usted: está
+    nosotros: estamos
+    nosotras: estamos
+    vosotros: estáis
+    vosotras: estáis
+    ellos: están
+    ellas: están
+    ustedes: están
+  pretérito imperfecto:
+    yo: estaba
+    tú: estabas
+    vos: estabas
+    él: estaba
+    ella: estaba
+    usted: estaba
+    nosotros: estábamos
+    nosotras: estábamos
+    vosotros: estabais
+    vosotras: estabais
+    ellos: estaban
+    ellas: estaban
+    ustedes: estaban
+  pretérito perfecto simple:
+    yo: estuve
+    tú: estuviste
+    vos:
+    - estuvistes
+    - estuviste
+    él: estuvo
+    ella: estuvo
+    usted: estuvo
+    nosotros: estuvimos
+    nosotras: estuvimos
+    vosotros: estuvisteis
+    vosotras: estuvisteis
+    ellos: estuvieron
+    ellas: estuvieron
+    ustedes: estuvieron
+  futuro simple:
+    yo: estaré
+    tú: estarás
+    vos: estarás
+    él: estará
+    ella: estará
+    usted: estará
+    nosotros: estaremos
+    nosotras: estaremos
+    vosotros: estaréis
+    vosotras: estaréis
+    ellos: estará
+    ellas: estará
+    ustedes: estará
+  condicional:
+    yo: estaría
+    tú: estarías
+    vos: estarías
+    él: estaría
+    ella: estaría
+    usted: estaría
+    nosotros: estaríamos
+    nosotras: estaríamos
+    vosotros: estarías
+    vosotras: estarías
+    ellos: estarían
+    ellas: estarían
+    ustedes: estarían
+subjuntivo:
+  presente:
+    yo: esté
+    tú: estés
+    vos: estés
+    él: esté
+    ella: estemos
+    usted: estéis
+    nosotros: estemos
+    nosotras: estemos
+    vosotros: estéis
+    vosotras: estéis
+    ellos: estén
+    ellas: estén
+    ustedes: estén
+  pretérito imperfecto 1:
+    yo: estuviera
+    tú: estuvieras
+    vos: estuvieras
+    él: estuviera
+    ella: estuviera
+    usted: estuviera
+    nosotros: estuviera
+    nosotras: estuviera
+    vosotros: estuviéramos
+    vosotras: estuviéramos
+    ellos: estuvieran
+    ellas: estuvieran
+    ustedes: estuvieran
+  pretérito imperfecto 2:
+    yo: estuviese
+    tú: estuvieses
+    vos: estuvieses
+    él: estuviese
+    ella: estuviese
+    usted: estuviese
+    nosotros: estuviésemos
+    nosotras: estuviésemos
+    vosotros: estuvieseis
+    vosotras: estuvieseis
+    ellos: estuviesen
+    ellas: estuviesen
+    ustedes: estuviesen
+  futuro:
+    yo: estuviere
+    tú: estuvieres
+    vos: estuvieres
+    él: estuviere
+    ella: estuviere
+    usted: estuviere
+    nosotros: estuviéremos
+    nosotras: estuviéremos
+    vosotros: estuviereis
+    vosotras: estuviereis
+    ellos: estuvieren
+    ellas: estuvieren
+    ustedes: estuvieren
+imperativo:
+  afirmativo:
+    tú:
+    - está
+    - estate
+    vos: está
+    él: esté
+    ella: esté
+    usted: esté
+    nosotros: estemos
+    nosotras: estemos
+    vosotros: estad
+    vosotras: estad
+    ellos: estén
+    ellas: estén
+    ustedes: estén
+  negativo:
+    tú: no estés
+    vos: no estés
+    él: no esté
+    ella: no esté
+    usted: no esté
+    nosotros: no estemos
+    nosotras: no estemos
+    vosotros: no estéis
+    vosotras: no estéis
+    ellos: no estén
+    ellas: no estén
+    ustedes: no estén
