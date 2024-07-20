@@ -1,0 +1,171 @@
+---
+infinitivo: haber
+gerundio: habiendo
+participio: habido
+indicativo:
+  presente:
+    yo: he
+    tú: has
+    vos:
+    - ha
+    - hay
+    él: &1
+    - ha
+    - hay
+    ella: *1
+    usted: *1
+    nosotros: &2
+    - hemos
+    - habemos
+    nosotras: *2
+    vosotros: habéis
+    vosotras: habéis
+    ellos: han
+    ellas: han
+    ustedes: han
+  pretérito imperfecto:
+    yo: había
+    tú: habías
+    vos: habías
+    él: había
+    ella: había
+    usted: había
+    nosotros: habíamos
+    nosotras: habíamos
+    vosotros: habíais
+    vosotras: habíais
+    ellos: habían
+    ellas: habían
+    ustedes: habían
+  pretérito perfecto simple:
+    yo: hube
+    tú: hubiste
+    vos:
+    - hubistes
+    - hubiste
+    él: hubo
+    ella: hubo
+    usted: hubo
+    nosotros: hubimos
+    nosotras: hubimos
+    vosotros: hubisteis
+    vosotras: hubisteis
+    ellos: hubieron
+    ellas: hubieron
+    ustedes: hubieron
+  futuro simple:
+    yo: habré
+    tú: habrás
+    vos: habrás
+    él: habrá
+    ella: habrá
+    usted: habrá
+    nosotros: habremos
+    nosotras: habremos
+    vosotros: habréis
+    vosotras: habréis
+    ellos: habrán
+    ellas: habrán
+    ustedes: habrán
+  condicional:
+    yo: habría
+    tú: habrías
+    vos: habrías
+    él: habría
+    ella: habría
+    usted: habría
+    nosotros: habríamos
+    nosotras: habríamos
+    vosotros: habríais
+    vosotras: habríais
+    ellos: habrían
+    ellas: habrían
+    ustedes: habrían
+subjuntivo:
+  presente:
+    yo: haya
+    tú: hayas
+    vos:
+    - hayás
+    - hayas
+    él: haya
+    ella: haya
+    usted: haya
+    nosotros: hayamos
+    nosotras: hayamos
+    vosotros: hayáis
+    vosotras: hayáis
+    ellos: hayan
+    ellas: hayan
+    ustedes: hayan
+  pretérito imperfecto 1:
+    yo: hubiera
+    tú: hubieras
+    vos: hubieras
+    él: hubiera
+    ella: hubiera
+    usted: hubiera
+    nosotros: hubiéramos
+    nosotras: hubiéramos
+    vosotros: hubierais
+    vosotras: hubierais
+    ellos: hubieran
+    ellas: hubieran
+    ustedes: hubieran
+  pretérito imperfecto 2:
+    yo: hubiese
+    tú: hubieses
+    vos: hubieses
+    él: hubiese
+    ella: hubiese
+    usted: hubiese
+    nosotros: hubiésemos
+    nosotras: hubiésemos
+    vosotros: hubieseis
+    vosotras: hubieseis
+    ellos: hubiesen
+    ellas: hubiesen
+    ustedes: hubiesen
+  futuro:
+    yo: hubiere
+    tú: hubieres
+    vos: hubieres
+    él: hubiere
+    ella: hubiere
+    usted: hubiere
+    nosotros: hubiéremos
+    nosotras: hubiéremos
+    vosotros: hubiereis
+    vosotras: hubiereis
+    ellos: hubieren
+    ellas: hubieren
+    ustedes: hubieren
+imperativo:
+  afirmativo:
+    tú: hé
+    vos: hé
+    él: haya
+    ella: haya
+    usted: haya
+    nosotros: hayamos
+    nosotras: hayamos
+    vosotros: habed
+    vosotras: habed
+    ellos: hayan
+    ellas: hayan
+    ustedes: hayan
+  negativo:
+    tú: no hayas
+    vos:
+    - no hayás
+    - no hayas
+    él: no haya
+    ella: no haya
+    usted: no haya
+    nosotros: no hayamos
+    nosotras: no hayamos
+    vosotros: no hayáis
+    vosotras: no hayáis
+    ellos: no hayan
+    ellas: no hayan
+    ustedes: no hayan
