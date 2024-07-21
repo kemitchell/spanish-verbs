@@ -1,0 +1,169 @@
+---
+infinitivo: tener
+gerundio: teniendo
+participio:
+  masculino singular: tenido
+  femenino singular: tenida
+  masculino plural: tenidos
+  femenino plural: tenidas
+indicativo:
+  presente:
+    yo: tengo
+    tú: tienes
+    vos: tenés
+    él: tiene
+    ella: tiene
+    usted: tiene
+    nosotros: tenemos
+    nosotras: tenemos
+    vosotros: tenéis
+    vosotras: tenéis
+    ellos: tienen
+    ellas: tienen
+    ustedes: tienen
+  pretérito imperfecto:
+    yo: tenía
+    tú: tenías
+    vos: tenías
+    él: tenía
+    ella: tenía
+    usted: tenía
+    nosotros: teníamos
+    nosotras: teníamos
+    vosotros: teníais
+    vosotras: teníais
+    ellos: tenían
+    ellas: tenían
+    ustedes: tenían
+  pretérito perfecto simple:
+    yo: tuve
+    tú: tuviste
+    vos:
+    - tuvistes
+    - tuviste
+    él: tuvo
+    ella: tuvo
+    usted: tuvo
+    nosotros: tuvimos
+    nosotras: tuvimos
+    vosotros: tuvisteis
+    vosotras: tuvisteis
+    ellos: tuvieron
+    ellas: tuvieron
+    ustedes: tuvieron
+  futuro simple:
+    yo: tendré
+    tú: tendrás
+    vos: tendrás
+    él: tendrá
+    ella: tendrá
+    usted: tendrá
+    nosotros: tendremos
+    nosotras: tendremos
+    vosotros: tendremos
+    vosotras: tendremos
+    ellos: tendrán
+    ellas: tendrán
+    ustedes: tendrán
+  condicional:
+    yo: tendría
+    tú: tendrías
+    vos: tendrías
+    él: tendría
+    ella: tendría
+    usted: tendría
+    nosotros: tendríamos
+    nosotras: tendríamos
+    vosotros: tendríais
+    vosotras: tendríais
+    ellos: tendrían
+    ellas: tendrían
+    ustedes: tendrían
+subjuntivo:
+  presente:
+    yo: tenga
+    tú: tengas
+    vos:
+    - tengás
+    - tengas
+    él: tenga
+    ella: tenga
+    usted: tenga
+    nosotros: tengamos
+    nosotras: tengamos
+    vosotros: tengáis
+    vosotras: tengáis
+    ellos: tengan
+    ellas: tengan
+    ustedes: tengan
+  pretérito imperfecto 1:
+    yo: tuviera
+    tú: tuvieras
+    vos: tuvieras
+    él: tuviera
+    ella: tuviera
+    usted: tuviera
+    nosotros: tuviéramos
+    nosotras: tuviéramos
+    vosotros: tuvierais
+    vosotras: tuvierais
+    ellos: tuvieran
+    ellas: tuvieran
+    ustedes: tuvieran
+  pretérito imperfecto 2:
+    yo: tuviese
+    tú: tuvieses
+    vos: tuvieses
+    él: tuviese
+    ella: tuviese
+    usted: tuviese
+    nosotros: tuviésemos
+    nosotras: tuviésemos
+    vosotros: tuvieseis
+    vosotras: tuvieseis
+    ellos: tuviesen
+    ellas: tuviesen
+    ustedes: tuviesen
+  futuro:
+    yo: tuviere
+    tú: tuvieres
+    vos: tuvieres
+    él: tuviere
+    ella: tuviere
+    usted: tuviere
+    nosotros: tuviéremos
+    nosotras: tuviéremos
+    vosotros: tuviereis
+    vosotras: tuviereis
+    ellos: tuvieren
+    ellas: tuvieren
+    ustedes: tuvieren
+imperativo:
+  afirmativo:
+    tú: ten
+    vos: tené
+    él: tenga
+    ella: tenga
+    usted: tenga
+    nosotros: tengamos
+    nosotras: tengamos
+    vosotros: tened
+    vosotras: tened
+    ellos: tengan
+    ellas: tengan
+    ustedes: tengan
+  negativo:
+    tú: no tengas
+    vos:
+    - no tengás
+    - no tengas
+    él: no tenga
+    ella: no tenga
+    usted: no tenga
+    nosotros: no tengamos
+    nosotras: no tengamos
+    vosotros: no tengáis
+    vosotras: no tengáis
+    ellos: no tengan
+    ellas: no tengan
+    ustedes: no tengan
