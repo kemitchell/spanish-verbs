@@ -1,0 +1,163 @@
+---
+infinitivo: ir
+gerundio: yendo
+participio: ido
+indicativo:
+  presente:
+    yo: voy
+    tú: vas
+    vos: vas
+    él: va
+    ella: va
+    usted: va
+    nosotros: vamos
+    nosotras: vamos
+    vosotros: vais
+    vosotras: vais
+    ellos: van
+    ellas: van
+    ustedes: van
+  pretérito imperfecto:
+    yo: iba
+    tú: ibas
+    vos: ibas
+    él: iba
+    ella: iba
+    usted: iba
+    nosotros: íbamos
+    nosotras: íbamos
+    vosotros: ibais
+    vosotras: ibais
+    ellos: iban
+    ellas: iban
+    ustedes: iban
+  pretérito perfecto simple:
+    yo: fui
+    tú: fuiste
+    vos: fuiste
+    él: fue
+    ella: fue
+    usted: fue
+    nosotros: fuimos
+    nosotras: fuimos
+    vosotros: fuisteis
+    vosotras: fuisteis
+    ellos: fueron
+    ellas: fueron
+    ustedes: fueron
+  futuro simple:
+    yo: iré
+    tú: irás
+    vos: irás
+    él: irá
+    ella: irá
+    usted: irá
+    nosotros: iremos
+    nosotras: iremos
+    vosotros: iréis
+    vosotras: iréis
+    ellos: irán
+    ellas: irán
+    ustedes: irán
+  condicional:
+    yo: iría
+    tú: irías
+    vos: irías
+    él: iría
+    ella: iría
+    usted: iría
+    nosotros: iríamos
+    nosotras: iríamos
+    vosotros: iríais
+    vosotras: iríais
+    ellos: irían
+    ellas: irían
+    ustedes: irían
+subjuntivo:
+  presente:
+    yo: vaya
+    tú: vayas
+    vos:
+    - vayás
+    - vayas
+    él: vaya
+    ella: vaya
+    usted: vaya
+    nosotros: vayamos
+    nosotras: vayamos
+    vosotros: vayáis
+    vosotras: vayáis
+    ellos: vayan
+    ellas: vayan
+    ustedes: vayan
+  pretérito imperfecto 1:
+    yo: fuera
+    tú: fueras
+    vos: fueras
+    él: fuera
+    ella: fuera
+    usted: fuera
+    nosotros: fuéramos
+    nosotras: fuéramos
+    vosotros: fuerais
+    vosotras: fuerais
+    ellos: fueran
+    ellas: fueran
+    ustedes: fueran
+  pretérito imperfecto 2:
+    yo: fuese
+    tú: fueses
+    vos: fueses
+    él: fuese
+    ella: fuese
+    usted: fuese
+    nosotros: fuésemos
+    nosotras: fuésemos
+    vosotros: fueseis
+    vosotras: fueseis
+    ellos: fuesen
+    ellas: fuesen
+    ustedes: fuesen
+  futuro:
+    yo: fuere
+    tú: fueres
+    vos: fueres
+    él: fuere
+    ella: fuere
+    usted: fuere
+    nosotros: fuéremos
+    nosotras: fuéremos
+    vosotros: fuereis
+    vosotras: fuereis
+    ellos: fueren
+    ellas: fueren
+    ustedes: fueren
+imperativo:
+  afirmativo:
+    tú: ve
+    vos: andá
+    él: vaya
+    ella: vaya
+    usted: vaya
+    nosotros: vamos
+    nosotras: vamos
+    vosotros: id
+    vosotras: id
+    ellos: vayan
+    ellas: vayan
+    ustedes: vayan
+  negativo:
+    tú: no vayas
+    vos:
+    - no vayás
+    - no vayas
+    él: no vaya
+    ella: no vaya
+    usted: no vaya
+    nosotros: no vayamos
+    nosotras: no vayamos
+    vosotros: no vayáis
+    vosotras: no vayáis
+    ellos: no vayan
+    ellas: no vayan
+    ustedes: no vayan
