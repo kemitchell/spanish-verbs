@@ -1,0 +1,98 @@
+
+---
+infinitivo: conducir
+gerundio: conduciendo
+participio:
+  masculino singular: conducido
+  femenino singular: conducida
+  masculino plural: conducidos
+  femenino plural: conducidas
+indicativo:
+  presente:
+    yo: conduzco
+    tú: conduces
+    vos: conducí
+    él: conduce
+    nosotros: condicimos
+    vosotros: conducís
+    ellos: conducen
+  pretérito imperfecto:
+    yo: conducía
+    tú: conducías
+    vos: conducías
+    él: conducía
+    nosotros: conducíamos
+    vosotros: conducíais
+    ellos: conducían
+  pretérito perfecto simple:
+    yo: conduje
+    tú: condujiste
+    vos: condujiste
+    él: condujo
+    nosotros: condujimos
+    vosotros: condujisteis
+    ellos: condujeron
+  futuro simple:
+    yo: conduciré
+    tú: conducirás
+    vos: conducirás
+    él: conducirá
+    nosotros: conduciremos
+    vosotros: conduciréis
+    ellos: conducirán
+  condicional:
+    yo: conduciría
+    tú: conducirías
+    vos: conducirías
+    él: conduciría
+    nosotros: conduciríamos
+    vosotros: conduciríais
+    ellos: conducirían
+subjuntivo:
+  presente:
+    yo: conduzca
+    tú: conduzcas
+    vos: conduzcas
+    él: conduzca
+    nosotros: conduzcamos
+    vosotros: conduzcáis
+    ellos: conduzcan
+  pretérito imperfecto 1:
+    yo: condujera
+    tú: condujeras
+    vos: condujeras
+    él: condujera
+    nosotros: condujeramos
+    vosotros: condujerais
+    ellos: condujeran
+  pretérito imperfecto 2:
+    yo: condujese
+    tú: condujeses
+    vos: condujeses
+    él: condujese
+    nosotros: condujesemos
+    vosotros: condujeseis
+    ellos: condujesen
+  futuro:
+    yo: condujere
+    tú: condeujeres
+    vos: condujeres
+    él: condujere
+    nosotros: condujeremos
+    vosotros: condujereis
+    ellos: condujeren
+imperativo:
+  afirmativo:
+    tú: conduce
+    vos: conduce
+    él: conduzca
+    nosotros: conduzcamos
+    vosotros: conduced
+    ellos: conduzcan
+  negativo:
+    tú: no conduzcas
+    vos: no conduzccas
+    él: no conduzca
+    nosotros: no conduzcamos
+    vosotros: no conduzcáis
+    ellos: no conduzcan
