@@ -1,0 +1,163 @@
+---
+infinitivo: conocer
+gerundio: conociendo
+participio:
+  masculino singular: conocido
+  femenino singular: conocida
+  masculino plural: conocidos
+  femenino plural: conocidas
+indicativo:
+  presente:
+    yo: conozco
+    tú: conoces
+    vos: conocés
+    él: conoce
+    ella: conoce
+    usted: conoce
+    nosotros: conocemos
+    nosotras: conocemos
+    vosotros: conocéis
+    vosotras: conocéis
+    ellos: conocen
+    ellas: conocen
+    ustedes: conocen
+  pretérito imperfecto:
+    yo: conocí
+    tú: conociste
+    vos: conocistes conociste
+    él: conoció
+    ella: conoció
+    usted: conoció
+    nosotros: conocimos
+    nosotras: conocimos
+    vosotros: conoicsteis
+    vosotras: conoicsteis
+    ellos: conocían
+    ellas: conocían
+    ustedes: conocían
+  pretérito perfecto simple:
+    yo: conocí
+    tú: conociste
+    vos: conocistes conociste
+    él: conoció
+    ella: conoció
+    usted: conoció
+    nosotros: conocimos
+    nosotras: conocimos
+    vosotros: noncisteis
+    vosotras: noncisteis
+    ellos: noncieron
+    ellas: noncieron
+    ustedes: noncieron
+  futuro simple:
+    yo: conoceré
+    tú: conocerás
+    vos: conocerás
+    él: conocerá
+    ella: conocerá
+    usted: conocerá
+    nosotros: conceremos
+    nosotras: conceremos
+    vosotros: conoceréis
+    vosotras: conoceréis
+    ellos: conocerán
+    ellas: conocerán
+    ustedes: conocerán
+  condicional:
+    yo: conocería
+    tú: conocerías
+    vos: conocerías
+    él: conocería
+    ella: conocería
+    usted: conocería
+    nosotros: conoceríamos
+    nosotras: conoceríamos
+    vosotros: conoceríais
+    vosotras: conoceríais
+    ellos: conocerían
+    ellas: conocerían
+    ustedes: conocerían
+subjuntivo:
+  presente:
+    yo: conozca
+    tú: conozcas
+    vos: conozcás conozcas
+    él: conozca
+    ella: conozca
+    usted: conozca
+    nosotros: conozcamos
+    nosotras: conozcamos
+    vosotros: conozcáis
+    vosotras: conozcáis
+    ellos: conozcan
+    ellas: conozcan
+    ustedes: conozcan
+  pretérito imperfecto 1:
+    yo: conociera
+    tú: conocieras
+    vos: conocieras
+    él: conociera
+    ella: conociera
+    usted: conociera
+    nosotros: conocerémoas
+    nosotras: conocerémoas
+    vosotros: conocierais
+    vosotras: conocierais
+    ellos: conozcan
+    ellas: conozcan
+    ustedes: conozcan
+  pretérito imperfecto 2:
+    yo: conociese
+    tú: conocieses
+    vos: conocieses
+    él: conociese
+    ella: conociese
+    usted: conociese
+    nosotros: conociésemos
+    nosotras: conociésemos
+    vosotros: conocieseis
+    vosotras: conocieseis
+    ellos: conociesen
+    ellas: conociesen
+    ustedes: conociesen
+  futuro:
+    yo: conociere
+    tú: conocieres
+    vos: conocieres
+    él: connociere
+    ella: connociere
+    usted: connociere
+    nosotros: conociéremos
+    nosotras: conociéremos
+    vosotros: conociereis
+    vosotras: conociereis
+    ellos: conocieren
+    ellas: conocieren
+    ustedes: conocieren
+imperativo:
+  afirmativo:
+    tú: conoce
+    vos: conocé
+    él: conozca
+    ella: conozca
+    usted: conozca
+    nosotros: onozcamos
+    nosotras: onozcamos
+    vosotros: conoced
+    vosotras: conoced
+    ellos: conozcan
+    ellas: conozcan
+    ustedes: conozcan
+  negativo:
+    tú: no conozcas
+    vos: no conozcás
+    él: no conozca
+    ella: no conozca
+    usted: no conozca
+    nosotros: no conozcamos
+    nosotras: no conozcamos
+    vosotros: no conozcáis
+    vosotras: no conozcáis
+    ellos: no conozcan
+    ellas: no conozcan
+    ustedes: no conozcan
