@@ -1,4 +1,3 @@
-
 ---
 infinitivo: conducir
 gerundio: conduciendo
@@ -13,86 +12,152 @@ indicativo:
     tú: conduces
     vos: conducí
     él: conduce
+    ella: conduce
+    usted: conduce
     nosotros: condicimos
+    nosotras: condicimos
     vosotros: conducís
+    vosotras: conducís
     ellos: conducen
+    ellas: conducen
+    ustedes: conducen
   pretérito imperfecto:
     yo: conducía
     tú: conducías
     vos: conducías
     él: conducía
+    ella: conducía
+    usted: conducía
     nosotros: conducíamos
+    nosotras: conducíamos
     vosotros: conducíais
+    vosotras: conducíais
     ellos: conducían
+    ellas: conducían
+    ustedes: conducían
   pretérito perfecto simple:
     yo: conduje
     tú: condujiste
     vos: condujiste
     él: condujo
+    ella: condujo
+    usted: condujo
     nosotros: condujimos
+    nosotras: condujimos
     vosotros: condujisteis
+    vosotras: condujisteis
     ellos: condujeron
+    ellas: condujeron
+    ustedes: condujeron
   futuro simple:
     yo: conduciré
     tú: conducirás
     vos: conducirás
     él: conducirá
+    ella: conducirá
+    usted: conducirá
     nosotros: conduciremos
+    nosotras: conduciremos
     vosotros: conduciréis
+    vosotras: conduciréis
     ellos: conducirán
+    ellas: conducirán
+    ustedes: conducirán
   condicional:
     yo: conduciría
     tú: conducirías
     vos: conducirías
     él: conduciría
+    ella: conduciría
+    usted: conduciría
     nosotros: conduciríamos
+    nosotras: conduciríamos
     vosotros: conduciríais
+    vosotras: conduciríais
     ellos: conducirían
+    ellas: conducirían
+    ustedes: conducirían
 subjuntivo:
   presente:
     yo: conduzca
     tú: conduzcas
     vos: conduzcas
     él: conduzca
+    ella: conduzca
+    usted: conduzca
     nosotros: conduzcamos
+    nosotras: conduzcamos
     vosotros: conduzcáis
+    vosotras: conduzcáis
     ellos: conduzcan
+    ellas: conduzcan
+    ustedes: conduzcan
   pretérito imperfecto 1:
     yo: condujera
     tú: condujeras
     vos: condujeras
     él: condujera
+    ella: condujera
+    usted: condujera
     nosotros: condujeramos
+    nosotras: condujeramos
     vosotros: condujerais
+    vosotras: condujerais
     ellos: condujeran
+    ellas: condujeran
+    ustedes: condujeran
   pretérito imperfecto 2:
     yo: condujese
     tú: condujeses
     vos: condujeses
     él: condujese
+    ella: condujese
+    usted: condujese
     nosotros: condujesemos
+    nosotras: condujesemos
     vosotros: condujeseis
+    vosotras: condujeseis
     ellos: condujesen
+    ellas: condujesen
+    ustedes: condujesen
   futuro:
     yo: condujere
     tú: condeujeres
     vos: condujeres
     él: condujere
+    ella: condujere
+    usted: condujere
     nosotros: condujeremos
+    nosotras: condujeremos
     vosotros: condujereis
+    vosotras: condujereis
     ellos: condujeren
+    ellas: condujeren
+    ustedes: condujeren
 imperativo:
   afirmativo:
     tú: conduce
     vos: conduce
     él: conduzca
+    ella: conduzca
+    usted: conduzca
     nosotros: conduzcamos
+    nosotras: conduzcamos
     vosotros: conduced
+    vosotras: conduced
     ellos: conduzcan
+    ellas: conduzcan
+    ustedes: conduzcan
   negativo:
     tú: no conduzcas
     vos: no conduzccas
     él: no conduzca
+    ella: no conduzca
+    usted: no conduzca
     nosotros: no conduzcamos
+    nosotras: no conduzcamos
     vosotros: no conduzcáis
+    vosotras: no conduzcáis
     ellos: no conduzcan
+    ellas: no conduzcan
+    ustedes: no conduzcan
